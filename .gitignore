@@ -1,0 +1,13 @@
+@"
+venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.log
+
+data/*
+!data/README.md
+
+*.pcap
+*.zip
+"@ | Out-File -Encoding utf8 .gitignore
