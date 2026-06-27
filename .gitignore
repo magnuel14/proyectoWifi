@@ -10,8 +10,7 @@ data/*
 
 *.pcap
 *.zip
-"@ | Out-File -Encoding utf8 .gitignore
 
 .env
 data/raw/
-*.zip
+"@ | Set-Content -Encoding utf8 .gitignore
